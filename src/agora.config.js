@@ -1,1 +1,1 @@
-export const AGORA_APP_ID = '' // set your app id here
+export const AGORA_APP_ID = '770c205286ad4090b036bdcac0b183fe' // set your app id here

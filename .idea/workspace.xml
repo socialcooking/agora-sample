@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c1e7747-7c8f-435a-8648-95a2d7b937a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/agora.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/agora.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OpenAgoraWeb-React" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583247414289</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update agora sdk">
+      <created>1583247457738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583247457738</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,17 +101,22 @@
     <MESSAGE value="test sample" />
     <MESSAGE value="set to live" />
     <MESSAGE value="video only for host" />
-    <option name="LAST_COMMIT_MESSAGE" value="video only for host" />
+    <MESSAGE value="update agora sdk" />
+    <option name="LAST_COMMIT_MESSAGE" value="update agora sdk" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4145" y="-360" key="CommitChangelistDialog2" timestamp="1583247413452">
+    <state x="4145" y="-360" key="CommitChangelistDialog2" timestamp="1583247456939">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
-    <state x="4145" y="-360" key="CommitChangelistDialog2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247413452" />
-    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2" timestamp="1583247416066">
+    <state x="4145" y="-360" key="CommitChangelistDialog2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247456939" />
+    <state x="4300" y="-199" key="FileChooserDialogImpl" timestamp="1583247758015">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
-    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247416066" />
+    <state x="4300" y="-199" key="FileChooserDialogImpl/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247758015" />
+    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2" timestamp="1583247458933">
+      <screen x="3240" y="-473" width="2560" height="1040" />
+    </state>
+    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247458933" />
     <state x="4216" y="-216" width="607" height="526" key="find.popup" timestamp="1583247344041">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
