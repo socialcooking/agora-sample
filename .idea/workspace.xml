@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583250112104</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="testr">
+      <created>1583251505039</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583251505039</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,18 +145,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="testr" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4145" y="-360" key="CommitChangelistDialog2" timestamp="1583250111476">
+    <state x="4145" y="-360" key="CommitChangelistDialog2" timestamp="1583251504349">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
-    <state x="4145" y="-360" key="CommitChangelistDialog2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583250111476" />
+    <state x="4145" y="-360" key="CommitChangelistDialog2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583251504349" />
     <state x="4300" y="-199" key="FileChooserDialogImpl" timestamp="1583247758015">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
     <state x="4300" y="-199" key="FileChooserDialogImpl/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247758015" />
-    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2" timestamp="1583250113142">
+    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2" timestamp="1583251506466">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
-    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583250113142" />
+    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583251506466" />
     <state x="4216" y="-216" width="607" height="526" key="find.popup" timestamp="1583248785233">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>

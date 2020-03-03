@@ -11,7 +11,7 @@ class Index extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      joinBtn: false,
+      joinBtn: true,
       channel: 'chibo',
       baseMode: 'avc',
       transcode: 'interop',
