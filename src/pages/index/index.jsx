@@ -12,11 +12,11 @@ class Index extends React.Component {
     super(props)
     this.state = {
       joinBtn: false,
-      channel: '',
+      channel: 'chibo',
       baseMode: 'avc',
       transcode: 'interop',
       attendeeMode: 'video',
-      videoProfile: '480p_4',
+      videoProfile: '720p_3',
     }
 
     this.requestPermissions = this.requestPermissions.bind(this);
@@ -105,9 +105,6 @@ class Index extends React.Component {
             </div>
             <div className="login-body">
               <div className="columns">
-                <div className="column is-12">
-                  <InputChannel onChange={this.handleChannel} placeholder="Input a room name here"></InputChannel>
-                </div>
               </div>
               <div className="columns">
                 <div className="column">
