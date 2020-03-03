@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c1e7747-7c8f-435a-8648-95a2d7b937a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\dev\agora-sample\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1YceoRMOUN1NdPxnAzUz7Pz8SUP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -13,5 +35,52 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c1e7747-7c8f-435a-8648-95a2d7b937a4" name="Default Changelist" comment="" />
+      <created>1583246483041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583246483041</updated>
+    </task>
+    <task id="LOCAL-00001" summary="test sample">
+      <created>1583246532445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583246532446</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="test sample" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="4145" y="-360" key="CommitChangelistDialog2" timestamp="1583246531535">
+      <screen x="3240" y="-473" width="2560" height="1040" />
+    </state>
+    <state x="4145" y="-360" key="CommitChangelistDialog2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583246531535" />
+    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2" timestamp="1583246534719">
+      <screen x="3240" y="-473" width="2560" height="1040" />
+    </state>
+    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583246534719" />
   </component>
 </project>
