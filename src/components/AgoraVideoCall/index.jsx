@@ -37,7 +37,7 @@ class AgoraCanvas extends React.Component {
   componentWillMount() {
     let $ = this.props
     // init AgoraRTC local client
-    this.client = AgoraRTC.createClient({ mode: 'live' })
+    this.client = AgoraRTC.createClient({ mode: 'live', codec: 'vp8' })
     this.client.init($.appId, () => {
       console.log("AgoraRTC client initialized")
       this.subscribeStreamEvents()
@@ -78,6 +78,8 @@ class AgoraCanvas extends React.Component {
       }, 2000)
     })
   }
+
+
 
   // componentWillUnmount () {
   //     // remove listener

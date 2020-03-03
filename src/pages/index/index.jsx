@@ -17,15 +17,58 @@ class Index extends React.Component {
       transcode: 'interop',
       attendeeMode: 'video',
       videoProfile: '480p_4',
-
     }
+
+    this.requestPermissions = this.requestPermissions.bind(this);
   }
 
   componentDidMount() {
     window.addEventListener('keypress', (e) => {
       e.keyCode === 13 && this.handleJoin()
     })
+    this.requestPermissions();
+
+
   }
+
+
+  requestPermissions() {
+    // In the Promise handlers, if Date.now() - now < 500 then we can assume this is a persisted user setting
+    const now = Date.now();
+
+    navigator.getUserMedia =
+        navigator.getUserMedia ||
+        navigator.webkitGetUserMedia ||
+        navigator.mozGetUserMedia ||
+        navigator.msGetUserMedia;
+
+    const onSuccess = () => {
+      console.log('Got stream, time diff :', Date.now() - now);
+    };
+
+    const onError = err => {
+      console.log('Get user media failed failed with error, time diff: ', Date.now() - now, err);
+    };
+
+    if (typeof navigator.mediaDevices.getUserMedia === 'undefined') {
+      navigator.getUserMedia(
+          {
+            audio: true,
+            video: true
+          },
+          onSuccess,
+          onError
+      );
+    } else {
+      navigator.mediaDevices
+          .getUserMedia({
+            audio: true,
+            video: true
+          })
+          .then(onSuccess)
+          .catch(onError);
+    }
+  };
 
   /**
    * 
@@ -67,19 +110,6 @@ class Index extends React.Component {
               <div className="columns">
                 <div className="column is-12">
                   <InputChannel onChange={this.handleChannel} placeholder="Input a room name here"></InputChannel>
-                </div>
-              </div>
-              <div className="columns">
-                <div className="column is-7">
-                  <BaseOptions
-                    onChange={val => this.setState({ baseMode: val })}>
-                  </BaseOptions>
-                </div>
-                <div className="column is-5">
-                  <AdvancedOptions
-                    onRadioChange={val => this.setState({ transcode: val })}
-                    onSelectChange={val => this.setState({ videoProfile: val })}>
-                  </AdvancedOptions>
                 </div>
               </div>
               <div className="columns">

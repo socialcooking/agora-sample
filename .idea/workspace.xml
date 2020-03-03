@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1c1e7747-7c8f-435a-8648-95a2d7b937a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/agora.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/agora.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AgoraVideoCall/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AgoraVideoCall/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -91,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583247457738</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fi app id">
+      <created>1583247777977</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583247777977</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,24 +112,25 @@
     <MESSAGE value="set to live" />
     <MESSAGE value="video only for host" />
     <MESSAGE value="update agora sdk" />
-    <option name="LAST_COMMIT_MESSAGE" value="update agora sdk" />
+    <MESSAGE value="fi app id" />
+    <option name="LAST_COMMIT_MESSAGE" value="fi app id" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4145" y="-360" key="CommitChangelistDialog2" timestamp="1583247456939">
+    <state x="4145" y="-360" key="CommitChangelistDialog2" timestamp="1583247777377">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
-    <state x="4145" y="-360" key="CommitChangelistDialog2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247456939" />
+    <state x="4145" y="-360" key="CommitChangelistDialog2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247777377" />
     <state x="4300" y="-199" key="FileChooserDialogImpl" timestamp="1583247758015">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
     <state x="4300" y="-199" key="FileChooserDialogImpl/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247758015" />
-    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2" timestamp="1583247458933">
+    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2" timestamp="1583247779244">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
-    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247458933" />
-    <state x="4216" y="-216" width="607" height="526" key="find.popup" timestamp="1583247344041">
+    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247779244" />
+    <state x="4216" y="-216" width="607" height="526" key="find.popup" timestamp="1583248785233">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
-    <state x="4216" y="-216" width="607" height="526" key="find.popup/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247344041" />
+    <state x="4216" y="-216" width="607" height="526" key="find.popup/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583248785233" />
   </component>
 </project>
