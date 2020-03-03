@@ -56,7 +56,7 @@ class Index extends React.Component {
           onSuccess,
           onError
       );
-    } else {
+    } else if (navigator && navigator.mediaDevices) {
       navigator.mediaDevices
           .getUserMedia({
             audio: true,
