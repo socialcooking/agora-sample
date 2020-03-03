@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1c1e7747-7c8f-435a-8648-95a2d7b937a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AgoraVideoCall/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AgoraVideoCall/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583247777977</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test">
+      <created>1583248990394</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583248990394</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,21 +118,22 @@
     <MESSAGE value="video only for host" />
     <MESSAGE value="update agora sdk" />
     <MESSAGE value="fi app id" />
-    <option name="LAST_COMMIT_MESSAGE" value="fi app id" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4145" y="-360" key="CommitChangelistDialog2" timestamp="1583247777377">
+    <state x="4145" y="-360" key="CommitChangelistDialog2" timestamp="1583248989677">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
-    <state x="4145" y="-360" key="CommitChangelistDialog2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247777377" />
+    <state x="4145" y="-360" key="CommitChangelistDialog2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583248989677" />
     <state x="4300" y="-199" key="FileChooserDialogImpl" timestamp="1583247758015">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
     <state x="4300" y="-199" key="FileChooserDialogImpl/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247758015" />
-    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2" timestamp="1583247779244">
+    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2" timestamp="1583248991826">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
-    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247779244" />
+    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583248991826" />
     <state x="4216" y="-216" width="607" height="526" key="find.popup" timestamp="1583248785233">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>

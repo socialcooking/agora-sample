@@ -27,10 +27,7 @@ class Index extends React.Component {
       e.keyCode === 13 && this.handleJoin()
     })
     this.requestPermissions();
-
-
   }
-
 
   requestPermissions() {
     // In the Promise handlers, if Date.now() - now < 500 then we can assume this is a persisted user setting
@@ -50,7 +47,7 @@ class Index extends React.Component {
       console.log('Get user media failed failed with error, time diff: ', Date.now() - now, err);
     };
 
-    if (typeof navigator.mediaDevices.getUserMedia === 'undefined') {
+    if (navigator && navigator.mediaDevices && typeof navigator.mediaDevices.getUserMedia === 'undefined') {
       navigator.getUserMedia(
           {
             audio: true,
