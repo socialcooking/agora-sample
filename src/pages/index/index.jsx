@@ -21,7 +21,6 @@ class Index extends React.Component {
     }
 
     this.requestPermissions = this.requestPermissions.bind(this);
-    this.changeRole = this.changeRole.bind(this);
   }
 
   componentDidMount() {

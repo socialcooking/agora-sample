@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c1e7747-7c8f-435a-8648-95a2d7b937a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index/index.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -134,7 +139,42 @@
       <option name="project" value="LOCAL" />
       <updated>1583251732668</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="sdk check">
+      <created>1583254543442</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583254543442</updated>
+    </task>
+    <task id="LOCAL-00013" summary="3.0.1">
+      <created>1583334850929</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583334850929</updated>
+    </task>
+    <task id="LOCAL-00014" summary="2.8 for sample app">
+      <created>1583337555921</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1583337555921</updated>
+    </task>
+    <task id="LOCAL-00015" summary="2.9 sample app">
+      <created>1583337932143</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1583337932143</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fixed up ios test">
+      <created>1583865254153</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1583865254153</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,25 +190,30 @@
     <MESSAGE value="test deplokiy" />
     <MESSAGE value="testr" />
     <MESSAGE value="fix btn" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix btn" />
+    <MESSAGE value="sdk check" />
+    <MESSAGE value="3.0.1" />
+    <MESSAGE value="2.8 for sample app" />
+    <MESSAGE value="2.9 sample app" />
+    <MESSAGE value="fixed up ios test" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed up ios test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="4145" y="-360" key="CommitChangelistDialog2" timestamp="1583251731962">
+    <state x="4145" y="-360" key="CommitChangelistDialog2" timestamp="1583865252626">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
-    <state x="4145" y="-360" key="CommitChangelistDialog2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583251731962" />
+    <state x="4145" y="-360" key="CommitChangelistDialog2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583865252626" />
     <state x="4300" y="-199" key="FileChooserDialogImpl" timestamp="1583247758015">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
     <state x="4300" y="-199" key="FileChooserDialogImpl/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583247758015" />
-    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2" timestamp="1583251733973">
+    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2" timestamp="1583865576979">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
-    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583251733973" />
-    <state x="3332" y="-381" width="2376" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583252434009">
+    <state x="4112" y="-221" key="Vcs.Push.Dialog.v2/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583865576979" />
+    <state x="3332" y="-381" width="2376" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583860579852">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
-    <state x="3332" y="-381" width="2376" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583252434009" />
+    <state x="3332" y="-381" width="2376" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1620.1040/5800.-513.2560.1400/3240.-473.2560.1040@3240.-473.2560.1040" timestamp="1583860579852" />
     <state x="4216" y="-216" width="607" height="526" key="find.popup" timestamp="1583248785233">
       <screen x="3240" y="-473" width="2560" height="1040" />
     </state>
