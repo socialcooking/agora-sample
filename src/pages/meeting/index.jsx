@@ -20,6 +20,7 @@ class Meeting extends React.Component {
     this.uid = undefined;
   }
 
+
   render() {
     return (
       <div className="wrapper meeting">

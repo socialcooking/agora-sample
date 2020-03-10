@@ -30,8 +30,16 @@ class AgoraCanvas extends React.Component {
     this.state = {
       displayMode: 'pip',
       streamList: [],
-      readyState: false
-    }
+      readyState: false,
+      uid: '',
+      role: props.attendeeMode || 'audience'
+    };
+
+
+    console.log('test', props.attendeeMode );
+    this.handleChangeRole = this.handleChangeRole.bind(this);
+    this.createLocalStream = this.createLocalStream.bind(this);
+    this.handlePublish = this.handlePublish.bind(this);
   }
 
   componentWillMount() {
@@ -42,26 +50,56 @@ class AgoraCanvas extends React.Component {
       console.log("AgoraRTC client initialized")
       this.subscribeStreamEvents()
       this.client.join($.appId, $.channel, $.uid, (uid) => {
+        this.setState({ uid });
         console.log("User " + uid + " join channel successfully")
         console.log('At ' + new Date().toLocaleTimeString())
-        // create local stream
-        // It is not recommended to setState in function addStream
-        this.localStream = this.streamInit(uid, $.attendeeMode, $.videoProfile)
-        this.localStream.init(() => {
-          if ($.attendeeMode !== 'audience') {
-            this.addStream(this.localStream, true)
-            this.client.publish(this.localStream, err => {
-              console.log("Publish local stream error: " + err);
-            })
-          }
-          this.setState({ readyState: true })
-        },
-          err => {
-            console.log("getUserMedia failed", err)
-            this.setState({ readyState: true })
-          })
+        this.createLocalStream(uid, 'video');
       })
     })
+  }
+
+  handleChangeRole () {
+    console.log('CHANGING ROLE', this.state.role);
+    if (this.state.role === 'audience') {
+      this.setState({ role: 'host'});
+      this.handlePublish(true);
+    } else {
+      this.setState({ role: 'audience'});
+      this.client && this.client.unpublish(this.localStream)
+    }
+  }
+
+
+  createLocalStream(uid) {
+    // create local stream
+    // It is not recommended to setState in function addStream
+
+    const mode = this.props.attendeeMode !== 'audience' ? 'video' : 'audio-only';
+    this.localStream = this.streamInit(uid, mode, this.props.videoProfile)
+
+    if (!this.state.streamCreated) {
+      this.localStream.init(() => {
+            this.addStream(this.localStream, true)
+            this.handlePublish();
+            this.setState({readyState: true, streamCreated: true })
+          },
+          err => {
+            console.log("getUserMedia failed", err)
+            this.setState({readyState: true})
+          })
+    } else {
+      this.client.publish(this.localStream, err => {
+        console.log("Publish local stream error: " + err);
+      })
+    }
+  }
+
+  handlePublish(force) {
+    if (this.state.role !== 'audience' || force) {
+      this.client.publish(this.localStream, err => {
+        console.log("Publish local stream error: " + err);
+      });
+    }
   }
 
   componentDidMount() {
@@ -159,7 +197,7 @@ class AgoraCanvas extends React.Component {
     let defaultConfig = {
       streamID: uid,
       audio: true,
-      video: attendeeMode !== 'audience',
+      video: true,
       screen: false
     }
 
@@ -380,6 +418,10 @@ class AgoraCanvas extends React.Component {
 
     return (
       <div id="ag-canvas" style={style}>
+        {this.props.attendeeMode === 'audience' && <div className="floatingBtn" style={{
+          background: this.state.role === 'audience' ? 'red' : 'green' }} onClick={this.handleChangeRole}>
+          <p>{this.state.role === 'audience' ? 'GO LIVE' : 'END LIVE'}</p>
+        </div> }
         <div className="ag-btn-group">
           {exitBtn}
           {videoControlBtn}

@@ -17,9 +17,11 @@ class Index extends React.Component {
       transcode: 'interop',
       attendeeMode: 'video',
       videoProfile: '720p_3',
+      role: 'audience'
     }
 
     this.requestPermissions = this.requestPermissions.bind(this);
+    this.changeRole = this.changeRole.bind(this);
   }
 
   componentDidMount() {
@@ -117,19 +119,9 @@ class Index extends React.Component {
                       </span>
                       <span className="radio-img video">
                       </span>
-                      <span className="radio-msg">Video Call : join with video call</span>
+                      <span className="radio-msg">Host a session</span>
                     </label>
                     <br />
-                    <label className="radio">
-                      <input onChange={e => this.setState({ attendeeMode: e.target.value })}
-                        value="audio-only" type="radio"
-                        name="attendee" />
-                      <span className="radio-btn">
-                      </span>
-                      <span className="radio-img audio">
-                      </span>
-                      <span className="radio-msg">Audio-only : join with audio call</span>
-                    </label>
                     <br />
                     <label className="radio">
                       <input onChange={e => this.setState({ attendeeMode: e.target.value })}
@@ -139,7 +131,7 @@ class Index extends React.Component {
                       </span>
                       <span className="radio-img audience">
                       </span>
-                      <span className="radio-msg">Audience : join as an audience</span>
+                      <span className="radio-msg">Participant</span>
                     </label>
                   </div>
                 </div>
